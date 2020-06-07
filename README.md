@@ -5,7 +5,7 @@ This sample app demonstrates the basic ability to create a context menu upon lon
 The app allows a user to choose a photo from their photo library and display it on the screen. Upon long pressing on the image, a context menu will appear to remove the image from the screen if desired.
 
 [Main app view](Images/PopImage Main View.png)
-[Context image view](Images/PopImage Context View.png)
+[Context image view](Images/PopImageMainView.png)
 ## More Resources
 - [Ray Wenderlich tutorial](https://www.raywenderlich.com/6328155-context-menus-tutorial-for-ios-getting-started)
 - [Context Menu Design Guidelines](https://developer.apple.com/design/human-interface-guidelines/ios/controls/context-menus/)
