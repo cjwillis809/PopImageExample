@@ -1,7 +1,7 @@
 # PopImageExample
 A Swift example of having a context menu when long pressing an image.
 
-This sample app demonstrates the basic ability to create a context menu upon long pressing on an image using the UIXontextMenuInteraction API provided by Apple.
+This sample app demonstrates the basic ability to create a context menu upon long pressing on an image using the UIContextMenuInteraction API provided by Apple.
 The app allows a user to choose a photo from their photo library and display it on the screen. Upon long pressing on the image, a context menu will appear to remove the image from the screen if desired.
 
 ![Main app view](https://github.com/cjwillis809/PopImageExample/blob/master/Images/PopImageMainView.png)
@@ -15,3 +15,4 @@ The app allows a user to choose a photo from their photo library and display it 
 ## Notes
 - This does not take into account custom previews or actions, which are explained more in detail in the Ray Wenderlich tutorial linked above.
 - One important aspect is to make sure `User Interaction Enabled` is set to true on the element you want to add the context menu to. If you run into the behavior where the context menu will not show, check this variable.
+- iOS 12 may use the Peek and Pop functionality that 3D Touch allows for. I am not sure if iOS automatically handles using this option between iOS 12 and iOS 13 or if developers need to handle for both OS versions.
